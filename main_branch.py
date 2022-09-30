@@ -1,7 +1,10 @@
 import random
+#simple game
 rock = "Rock"
 paper = "Paper"
 scissors = "Scissors"
+
+
 player_move = input("Choose [r]ock, [p]aper or [s]cissor: ")
 computer_move = ""
 if player_move == "r":
